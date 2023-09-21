@@ -80,7 +80,7 @@ ${renewHTML}
         <a href="${getCloudURL("settings/avatar")}" class="config-account__avatar" style="background-image: url(${window.siyuan.user.userAvatarURL})" target="_blank"></a>
         <h1 class="config-account__name">
             <a target="_blank" class="fn__a" href="${getCloudURL("member/" + window.siyuan.user.userName)}">${window.siyuan.user.userName}</a>
-            <span class="ft__on-surface ft__smaller">${0 === window.siyuan.config.cloudRegion ? "ld246.com" : "liuyun.io"}</span>
+            <span class="ft__on-surface ft__smaller">萌森工作室提供技术支持</span>
         </h1>
         ${userTitlesHTML}
     </div>
@@ -101,24 +101,7 @@ ${renewHTML}
             </button>
         </div>
         <div class="fn__hr--b"></div>
-        <div class="fn__flex">
-            <label>
-                ${window.siyuan.languages.accountDisplayTitle}
-                <input class="b3-switch fn__flex-center" id="displayTitle" type="checkbox"${window.siyuan.config.account.displayTitle ? " checked" : ""}/>
-            </label>
-            <div class="fn__flex-1"></div>
-            <label>
-                ${window.siyuan.languages.accountDisplayVIP}
-                <input class="b3-switch fn__flex-center" id="displayVIP" type="checkbox"${window.siyuan.config.account.displayVIP ? " checked" : ""}/>
-            </label>
-        </div>
     </div>
-</div>
-<div class="config-account__center config-account__center--text${window.siyuan.config.system.container === "ios" ? " fn__none" : ""}">
-    <div class="fn__flex-1 fn__hr"></div>
-    <div class="ft__center">${subscriptionHTML}</div>
-    <div class="fn__flex-1 fn__hr"></div>
-    ${activeSubscriptionHTML}
 </div></div>`;
         }
         return `<div class="fn__flex config-account">
