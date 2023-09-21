@@ -19,7 +19,8 @@ import {App} from "../../index";
 import {Plugin} from "../../plugin";
 import {Custom} from "./Custom";
 
-const TYPES = ["file", "outline", "inbox", "bookmark", "tag", "graph", "globalGraph", "backlink"];
+// 快捷操作菜单
+const TYPES = ["file", "outline", "bookmark", "tag", "graph", "globalGraph", "backlink"];
 
 export class Dock {
     public element: HTMLElement;
