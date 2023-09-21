@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="siyuan" />
+    <working_directory value="$PROJECT_DIR$/app/kernel" />
+    <go_parameters value="--tags &quot;fts5&quot; -o &quot;../app/kernel/SiYuan-Kernel.exe&quot;" />
+    <parameters value="--wd=.. --mode=dev" />
+    <kind value="DIRECTORY" />
+    <directory value="$PROJECT_DIR$/kernel" />
+    <filePath value="$PROJECT_DIR$/../siyuan|$PROJECT_DIR$/kernel/main.go" />
+    <input_file value="$PROJECT_DIR$/app/kernel/SiYuan-Kernel.exe" />
+    <method v="2" />
+  </configuration>
+</component>
